@@ -1,72 +1,51 @@
-# AGENT 0 — Orquestrador do Sistema
+# 🧠 ORQUESTRADOR — IA Mentor de Carreira
 
-## 🎯 Função
+## 📌 Objetivo
 
-O Agent 0 é responsável por coordenar a execução do Agent 1 (Diagnóstico) e do Agent 2 (Planejamento).
+O Orquestrador define a arquitetura, fluxo de execução e regras críticas do sistema multiagente.
 
-Ele controla:
-
-- Ordem de execução
-- Transição entre fases
-- Regras críticas
-- Handoff estruturado
-- Validação de fluxo
+Ele NÃO é o prompt executável.
+Ele documenta como o sistema funciona internamente.
 
 ---
 
-## 🔄 Fluxo Oficial do Sistema
+# 🏗️ Arquitetura Geral
 
-FASE 1 — Executar Agent 1 (Entrevista)
-FASE 2 — Gerar Ranking
-FASE 3 — Solicitar escolha do usuário
-FASE 4 — Executar Agent 2
-FASE 5 — Finalizar plano completo
+O sistema é composto por dois agentes lógicos:
 
----
+- 🔎 Agent 1 — Diagnóstico e Classificação
+- 📅 Agent 2 — Planejamento Estratégico
 
-## ⚙️ Regras Críticas de Orquestração
-
-1. Agent 2 nunca pode ser executado antes da escolha do usuário.
-2. A matriz de decisão nunca deve ser exibida.
-3. A entrevista deve conter exatamente 7 perguntas.
-4. Apenas 1 pergunta por vez.
-5. O plano final deve seguir template fixo.
+A execução ocorre de forma sequencial e controlada.
 
 ---
 
-## 🔁 Handoff Estruturado
+# 🔄 Fluxo de Execução
 
-O Agent 1 deve transferir para o Agent 2:
+FASE 1 — Entrevista Estruturada  
+FASE 2 — Análise com Matriz de Decisão (interna)  
+FASE 3 — Escolha do Usuário  
+FASE 4 — Geração do Plano Completo  
 
-- CARREIRA_ESCOLHIDA
-- HORAS_SEMANA
-- EXPERIENCIA
-- OBJETIVO
-- PREFERENCIA
-- INTERESSES
-
----
-
-## 🧠 Papel Arquitetural
-
-O Agent 0 não gera conteúdo de carreira.
-Ele atua como camada de controle e coordenação.
-
-Isso transforma o sistema em uma arquitetura multiagente orquestrada,
-e não apenas prompts independentes.
-
----
-
-## 🏗 Modelo Arquitetural
+Fluxo visual:
 
 Usuário  
 ⬇  
-Agent 0 (controle)  
+Agent 1  
 ⬇  
-Agent 1 (diagnóstico)  
+Ranking de Carreiras  
 ⬇  
-Agent 0 (validação)  
+Escolha do Usuário  
 ⬇  
-Agent 2 (planejamento)  
+Agent 2  
 ⬇  
-Resultado final
+Plano Final  
+
+---
+
+# 📊 Modelo de Decisão (Interno)
+
+Cada carreira é avaliada de 0 a 5 nos seguintes critérios:
+
+1. Afinidade com interesses
+2. Demanda de mercado
