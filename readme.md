@@ -1,110 +1,216 @@
-<!--START_SECTION:header-->
-<div align="center">
-  <p align="center">
-    <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
-    />
-    <h1>Título do Curso ou Projeto</h1>
-  </p>
-</div>
-<!--END_SECTION:header-->
+# 🚀 IA Mentor de Carreira
+## Sistema Multiagente Orquestrado para Descoberta e Planejamento de Carreira em Tecnologia
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
+---
 
-</p>
+## 📌 Visão Estratégica
 
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Expert</p>
-        <a href="https://github.com/felipeAguiarCode">
-        <img src="https://avatars0.githubusercontent.com/u/37452836?v=3&s=115" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em sistemas comerciais com .NET C# e NODE.JS.
-      <br/>
-     🌟 Desenvolvedor fullstack - Coordenador de educação na DIO
-      <br/>
-    👨‍💻 Foco em front-ends SPA com React, Angular e Vue.js
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/felipe-me/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/felipeaguiar.exe/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
+O IA Mentor de Carreira é um sistema baseado em IA generativa projetado para simular uma consultoria profissional de orientação em tecnologia.
 
-<br/>
-<br/>
+O sistema executa duas funções principais:
 
-## 💻 Sobre o Projeto
+1. Diagnóstico estruturado de perfil profissional  
+2. Geração de roadmap personalizado baseado em variáveis individuais  
 
-Vamos construir uma página spa, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer que faz xxx e yyy
+Este projeto demonstra aplicação prática de:
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+- Engenharia de Prompt
+- Arquitetura Multiagente
+- Orquestração Conversacional
+- Modelagem de Sistema Decisório
+- Design de Fluxo Estruturado com IA
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+---
 
-- [habilidades ou conhecimentos prévios necessários] | [Básico, Intermediário, Avançado ou Especialista]
+## 🧠 Arquitetura do Sistema
 
-- _Exemplo_:
+O sistema foi concebido com separação lógica de responsabilidades, dividida em dois papéis internos:
 
-  - Java | Básico
-  - Gerenciamento de pacotes | Básico
-  -
+### 🔎 Agent 1 – Diagnóstico e Classificação
+Responsável por:
+- Conduzir entrevista estruturada (7 perguntas)
+- Coletar variáveis estratégicas
+- Aplicar matriz interna de decisão
+- Ranqueiar 3 carreiras
+- Realizar handoff estruturado
 
-- [Outros pré-requisitos, se aplicável]
+Variáveis coletadas:
+- Interesses principais
+- Experiência prévia
+- Horas disponíveis por semana
+- Preferência operacional (pessoas, dados ou código)
+- Objetivo profissional
+- Interesses técnicos
+- Experiência reaproveitável
 
-- _Exemplo_:
-  - Lógica de programação
-  - Javascript
+---
 
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
+### 📅 Agent 2 – Planejamento Estratégico
+Responsável por:
+- Descrever o dia a dia da carreira escolhida
+- Mapear habilidades essenciais e complementares
+- Criar roadmap de 90 dias adaptado
+- Definir projeto de portfólio
+- Simular roteiro de entrevistas
+- Recomendar trilha educacional
 
-- [Lista das habilidades principais a serem desenvolvidas]
+---
 
-  - [Subhabilidades relacionadas, se aplicável]
+## 🔄 Modelo de Orquestração
 
-- _Exemplo_:
-  - Java
-    - Api Rest
+Embora o sistema possua dois agentes conceituais, a execução ocorre através de um único Prompt Orquestrador.
 
-## 🎯 Objetivos e Resultados Esperados
+Esse prompt mantém separação lógica interna por fases:
 
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
+FASE 1 – Entrevista Estruturada  
+FASE 2 – Análise com Matriz de Decisão (interna)  
+FASE 3 – Escolha do Usuário  
+FASE 4 – Geração do Plano Completo  
 
-- [Descrição do que os estudantes serão capazes de fazer]
-- [Projetos ou soluções que os estudantes estarão aptos a construir]
+Fluxo:
 
-<!--START_SECTION:footer-->
+Usuário  
+⬇  
+Diagnóstico (Agent 1)  
+⬇  
+Ranking de Carreiras  
+⬇  
+Escolha  
+⬇  
+Planejamento (Agent 2)
 
-<br />
-<br />
+---
 
-<p align="center">
-  <a href="https://www.dio.me/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
-  </a>
-</p>
+# 🔧 Prompt Orquestrador (Execução Unificada)
+
+Abaixo deve ser inserido o prompt completo responsável por orquestrar os dois papéis (Agent 1 e Agent 2) dentro de um único fluxo sequencial.
+
+Este prompt deve conter:
+
+- Definição dos dois papéis internos
+- Regras rígidas de controle de fluxo
+- Entrevista com 7 perguntas (1 por vez)
+- Matriz de decisão interna não exibida
+- Ranking estruturado
+- Handoff automático
+- Geração completa do roadmap conforme template
+
+---
+
+📌 INSERIR AQUI O TEXTO COMPLETO DO PROMPT ORQUESTRADOR
+
+(cole aqui o prompt final unificado contendo Agent 1 + Agent 2 em sequência lógica)
+
+---
+
+Observação Técnica:
+
+Mesmo sendo executado como um único prompt, o sistema mantém:
+
+- Separação funcional
+- Controle de estado por fases
+- Regras explícitas para impedir:
+  - Geração prematura de plano
+  - Continuação após 7 perguntas
+  - Vazamento da matriz de decisão
+  - Quebra de formato do roadmap
+
+---
+
+## 📊 Modelo de Decisão
+
+Cada carreira é avaliada de 0 a 5 nos seguintes critérios:
+
+- Afinidade com interesses declarados
+- Demanda de mercado (contextual)
+- Tempo até nível júnior (ramp-up)
+- Aproveitamento de experiência prévia
+
+Pontuação máxima: 20 pontos.
+
+A matriz é utilizada como raciocínio interno e não é exibida ao usuário.
+
+---
+
+## 🧪 Teste de Execução (Caso Simulado)
+
+### Perfil Utilizado
+
+- Interesse: Resolver problemas  
+- Experiência: Pouca  
+- Tempo disponível: 1h/semana  
+- Preferência: Dados  
+- Objetivo: Crescer na função atual  
+- Interesse técnico: Inteligência Artificial  
+
+---
+
+### Ranking Gerado
+
+1º Analista de Dados — 17/20  
+2º Cientista de Dados Júnior — 15/20  
+3º Engenheiro de Machine Learning Júnior — 13/20  
+
+Escolha do usuário: Engenheiro de Machine Learning Júnior
+
+---
+
+### Resultado Produzido
+
+O sistema gerou:
+
+- Plano progressivo de 20 semanas
+- Estrutura de fundamentos → ML → Deep Learning → Engenharia
+- Mini-projetos práticos
+- Estratégia de portfólio
+- Roteiro de entrevistas
+- Recursos gratuitos recomendados
+
+---
+
+## 🧩 Decisões Arquiteturais
+
+1. Separação lógica de agentes para modularidade  
+2. Orquestração unificada para simplicidade de execução  
+3. Controle rígido de fluxo conversacional  
+4. Template fechado para evitar respostas genéricas  
+5. Handoff estruturado com variáveis padronizadas  
+
+---
+
+## ⚠️ Limitações Técnicas
+
+- Dependência da qualidade das respostas do usuário  
+- Possível variação de formatação entre modelos  
+- Ausência de banco dinâmico de carreiras  
+- Avaliação de mercado não regionalizada automaticamente  
+
+---
+
+## 🚀 Possíveis Evoluções
+
+- Implementação de pesos dinâmicos na matriz  
+- Inclusão de análise comportamental (soft skills)  
+- Integração com APIs de vagas  
+- Persistência de dados do usuário  
+- Interface web com histórico de execução  
+
+---
+
+## 🎓 Competências Demonstradas
+
+Este projeto evidencia:
+
+- Engenharia de Prompt Avançada  
+- Arquitetura Multiagente  
+- Design de Sistema Conversacional  
+- Modelagem de Fluxo Estruturado  
+- Pensamento de Produto com IA  
+
+---
+
+## 📌 Conclusão
+
+O IA Mentor de Carreira demonstra como sistemas baseados em IA generativa podem ser estruturados com arquitetura modular e orquestração interna para simular processos consultivos reais.
+
+Mais do que um chatbot, trata-se de um sistema orientado por fases, controle e especialização funcional.
